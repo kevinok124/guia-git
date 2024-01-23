@@ -102,3 +102,27 @@ git status --short #versión resumida.
 * Working Directory (WS): Zona de trabajo, de intercambio de archivos.
 * Staging Area (SA): Zona donde los archivos están preparados para ser parte de un commit.
 * Local Repo (LR): El área donde se guardan todos los commit. Los diferentes estados o cambios guardados en el tiempo.
+
+## GIT ADD
+Muevo los archivos del  área del Working Directory al área del Staging Area
+
+```sh
+git add <nombre-archivo>
+git add README.md
+git add . # Agrego todos los archivos
+```
+
+## GIT COMMIT 
+
+```sh
+git commit -m "<Mensaje explicativo de los cambios que tiene dentro el commit>"
+git commit -m "<Guardando el archivo README.md hasta estados de archivos y estructura>"
+```
+
+## GIT DIFF
+
+Es ver la diferencia entre el archivo que fue modificado en (WD) con respecto a la versión del archivo que está guardado en (LR)
+
+```sh
+git diff # Para salir de este comando "q" -> quit
+```
