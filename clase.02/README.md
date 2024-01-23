@@ -63,3 +63,22 @@ git push -u origin main
 ## La segunda y subsiguientes
 git push
 ```
+
+## GIT FETCH: Trae la metadata del repositorio remoto al local
+Me actualiza la metadata del repositorio local con la metadata del repositorio remoto
+
+```sh
+git fetch
+```
+
+## GIT PULL: Me trae los cambios ocurridos en los archivos
+
+```sh
+git pull
+```
+
+## Ver ramas locales y remotas
+
+```sh
+git branch -av
+```
