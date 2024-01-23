@@ -15,3 +15,14 @@ git commit --amend -m <nuevo-mensaje-o-mensaje-corregido>
 
 ## GIT RESTORE
 Me permite recuperar información que está guardada en el repo y además me permite mover los archivos entre el área de working directory y staging area.
+
+
+```sh
+git restore --staged <archivo> # Sacar del staging area los cambios y dejarlos en el working directory
+git store --staged README.md
+```
+
+```sh
+git restore --staged <archivo> # Recuperar del último commit un archivo en específico
+git store --staged README.md
+```
