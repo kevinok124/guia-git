@@ -126,3 +126,8 @@ Es ver la diferencia entre el archivo que fue modificado en (WD) con respecto a 
 ```sh
 git diff # Para salir de este comando "q" -> quit
 ```
+## Ver el listado de commits (Ver la caja de fotos)
+
+```sh
+git log
+```
