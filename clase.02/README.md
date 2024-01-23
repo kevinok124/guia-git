@@ -12,3 +12,6 @@ Me permite darle seguimiento a carpetas que no tiene ningún archivo, ni necesit
 ```sh
 git commit --amend -m <nuevo-mensaje-o-mensaje-corregido>
 ```
+
+## GIT RESTORE
+Me permite recuperar información que está guardada en el repo y además me permite mover los archivos entre el área de working directory y staging area.
