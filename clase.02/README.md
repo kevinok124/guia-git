@@ -26,3 +26,40 @@ git store --staged README.md
 git restore --staged <archivo> # Recuperar del último commit un archivo en específico
 git store --staged README.md
 ```
+
+## Ver información de los commits
+
+```sh
+git show <hash>
+git show 10769e2
+```
+
+## Agregando y subiendo al remoto nuestros cambios (Nuestro repositorio)
+
+## Crer repositorio
+
+## Configurar en el local la url del remoto
+> Agrego url del remoto
+```sh
+git remote add <alias> <url>
+git remote add origin https://github.com/kevinok124/guia-git.git
+
+```
+
+> Quito url del remoto
+```sh
+git remote remove <alias>
+git remote remove origin
+```
+
+## Git PUSH: Subir al remoto
+Subir al remoto los cambios locales
+
+```sh
+# La primera vez que subo una rama al remoto
+git push -u <remoto> <rama-local>
+git push -u origin main
+
+## La segunda y subsiguientes
+git push
+```
