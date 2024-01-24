@@ -144,3 +144,4 @@ git stash clear
 ```
 
 ## GIT RESET
+Hay 3 tipos de reset
