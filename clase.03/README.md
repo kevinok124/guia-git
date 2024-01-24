@@ -152,5 +152,8 @@ Hay 3 tipos de reset
 git reset --soft <hash>
 ```
 * MIXED
+```sh
+git reset --mixed <hash>
+```
 * HARD
 De los 3 este es el más destructivo
