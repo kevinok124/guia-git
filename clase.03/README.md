@@ -42,6 +42,12 @@ git branch -a
 
 ```sh
 git branch -r
+## SHOW-BRANCH
+
+Nos muestra el último commit de cada rama
+
+```sh
+git show-branch
 ```
 
 ## GIT ALIAS
