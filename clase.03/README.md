@@ -153,7 +153,12 @@ git reset --soft <hash>
 ```
 * MIXED
 ```sh
+git reset <hash>
 git reset --mixed <hash>
 ```
 * HARD
 De los 3 este es el más destructivo
+
+```sh
+git reset --hard <hash>
+```
