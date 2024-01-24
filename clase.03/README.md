@@ -152,6 +152,7 @@ Todo lo que tengo dentro (cambios) de los commits indicados van a terminar en el
 git reset --soft <hash>
 ```
 * MIXED
+Todo lo que tengo dentro (cambios) de los commits indicados van a terminar en el working directory
 ```sh
 git reset <hash>
 git reset --mixed <hash>
