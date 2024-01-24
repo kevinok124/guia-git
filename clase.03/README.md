@@ -147,7 +147,7 @@ git stash clear
 Hay 3 tipos de reset
 
 * SOFT
-
+Todo lo que tengo dentro (cambios) de los commits indicados van a terminar en el staging área
 ```sh
 git reset --soft <hash>
 ```
