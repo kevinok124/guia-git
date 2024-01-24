@@ -4,6 +4,14 @@
 
 ![Ramas](_ref/ramas.png)
 
+## SHOW-BRANCH
+
+Nos muestra el último commit de cada rama
+
+```sh
+git show-branch
+```
+
 ## GIT ALIAS
 
 Son un acceso directo a comandos más extensos.
