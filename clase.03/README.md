@@ -148,3 +148,4 @@ Hay 3 tipos de reset
 
 *SOFT
 *MIXED
+*HARD
