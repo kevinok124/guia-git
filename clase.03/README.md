@@ -146,6 +146,7 @@ git stash clear
 ## GIT RESET
 Hay 3 tipos de reset
 
-*SOFT
-*MIXED
-*HARD
+* SOFT
+* MIXED
+* HARD
+De los 3 este es el más destructivo
