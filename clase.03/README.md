@@ -158,7 +158,7 @@ git reset <hash>
 git reset --mixed <hash>
 ```
 * HARD
-De los 3 este es el más destructivo
+De los 3 este es el más destructivo. Todo lo que está dentro de los commits indicados se va a borrar.
 
 ```sh
 git reset --hard <hash>
