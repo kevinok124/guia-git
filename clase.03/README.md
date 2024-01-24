@@ -142,3 +142,5 @@ git stash show -p stash@{1}
 ```sh
 git stash clear
 ```
+
+## GIT RESET
