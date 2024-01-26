@@ -63,3 +63,11 @@ git cherry-pick <hash>^..<hash> # Incluyendo los bordes
 ```
 
 # GIST en Github
+Me permite compartir código, pasar snippets a otras personas o información que quiero compartir
+
+<https://cli.github.com>
+
+Secretos -> Solo la persona que tenga el link puede verlo. No son privados.
+Públicos -> Se van a indexar en los motores de búsqueda.
+
+Pueden tener varios archivos y sus revisiones
