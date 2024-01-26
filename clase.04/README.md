@@ -24,3 +24,18 @@ git show <nombre-tag>
 git tag -a v1.0.0
 git tag -a v1.0.0 -m "Versión 1.0.0" # -a:annotate | -m:message
 ```
+
+## Subir tags al remoto
+
+### NO LO USO: Subir todos los tags
+
+```sh
+git push --tags
+```
+
+### Subir tag por tag... Uno a uno
+
+```sh
+git push origin <nombre-tag>
+git push origin v1-0-0
+```
