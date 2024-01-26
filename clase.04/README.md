@@ -39,3 +39,17 @@ git push --tags
 git push origin <nombre-tag>
 git push origin v1-0-0
 ```
+
+### Para listar los commit hasta la versión deseada
+
+```sh
+git log v2.0.0
+```
+
+### Borrar un tag
+
+```sh
+git tag -d <anotación-del-tag>
+git tag -d v2.0.0
+```
+
