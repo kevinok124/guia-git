@@ -53,3 +53,10 @@ git tag -d <anotación-del-tag>
 git tag -d v2.0.0
 ```
 
+## GIT CHERRY PICK
+
+```sh
+git cherry-pick <hash>
+git cherry-pick <hash>..<hash> # Sin incluir los bordes
+git cherry-pick <hash>^..<hash> # Incluyendo los bordes
+```
