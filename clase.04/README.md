@@ -60,7 +60,6 @@ git cherry-pick <hash>
 git cherry-pick <hash>..<hash> # Sin incluir los bordes
 git cherry-pick <hash>^..<hash> # Incluyendo los bordes
 ```
-```
 
 # GIST en Github
 Me permite compartir código, pasar snippets a otras personas o información que quiero compartir
@@ -73,3 +72,27 @@ Públicos -> Se van a indexar en los motores de búsqueda.
 Pueden tener varios archivos y sus revisiones
 
 # Trabajando en forma colaborativa con proyectos Open Source (Pull Request y Fork)
+
+1. Hacer un fork del proyecto. Del proyecto del cual quiero contribuir (Me voy copiar en mi cuenta el repo del proyecto original) [CREAR FORK]
+2. Me clono el fork desde mi cuenta github
+3. Trabajo normalmente. Subo los cambios (A repo propio)
+4. En el pull request de mi fork voy a ver la pestaña Pull Request. Creo un nuevo Pull Request.
+---
+5. Si el repo original sufrió más modificaciones. (Commits). Voy a tener que actualizar mi fork.
+6. Voy a la cuenta del proyecto original y me copio la url del repositorio
+7. Y agrego en mi repositorio local, la url (el remoto) del proyecto original.
+
+    git remote add upstream <URL-repositorio-original>
+
+8. Me traigo los cambios del repositorio original a mi repo local
+
+    git pull upstream <la-rama-donde-me-quiero-traer>
+
+9. Subo a mi repositorio remoto (Fork) las actualizaciones del repo local
+
+    git push origin <rama-a-actualizar>
+
+## GITHUB CLI
+Es un herramienta para interacturar con los repositorios remotos de GITHUB
+
+<https://cli.github.com/>
