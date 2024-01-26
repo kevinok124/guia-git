@@ -60,3 +60,6 @@ git cherry-pick <hash>
 git cherry-pick <hash>..<hash> # Sin incluir los bordes
 git cherry-pick <hash>^..<hash> # Incluyendo los bordes
 ```
+```
+
+# GIST en Github
