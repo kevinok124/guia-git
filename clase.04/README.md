@@ -71,3 +71,5 @@ Secretos -> Solo la persona que tenga el link puede verlo. No son privados.
 Públicos -> Se van a indexar en los motores de búsqueda.
 
 Pueden tener varios archivos y sus revisiones
+
+# Trabajando en forma colaborativa con proyectos Open Source (Pull Request y Fork)
